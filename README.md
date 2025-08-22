@@ -19,7 +19,7 @@ v:joinVoice()
 ```luau
 v:RequestJoinVoiceChat()
 ```
-- Because if we use RequestJoinVoiceChat() like this, we will send a request to Roblox via the function that we want to join the voice chat
+- Because if we use RequestJoinVoiceChat() like this, we will send a request to Roblox via the function that we want to join the voice chat (UPDATE: THIS FUNCTION: RequestJoinVoiceChat() NOT IN VoiceChatService VALID MEMBER)
 
 ## FAQ:
 ### Why The Exploit Dosen't Work For Me?!:
