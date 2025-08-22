@@ -3,7 +3,7 @@ Welcome to ByeRobloxVCBan is an exploit that works on Roblox executors and its m
 
 - Copy And Paste This To Your Executor:
 ```luau
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GozBlox/ByeRobloxVCBan/refs/heads/main/source.luau))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GozBlox/ByeRobloxVCBan/refs/heads/main/source.luau"))()
 ```
 
 ## How Does ByeRobloxVCBan Works?!:
