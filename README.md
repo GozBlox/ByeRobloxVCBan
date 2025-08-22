@@ -1,1 +1,28 @@
 # ByeRobloxVCBan
+Welcome to ByeRobloxVCBan is an exploit that works on Roblox executors and its mission is to unban you from Voice Chat Suspended 
+
+## How Does ByeRobloxVCBan Works?!:
+- First, the script will create a variable named v to call a Service named VoiceChatService like this: 
+```luau
+local v = game:GetService("VoiceChatService")
+```
+- Secondly, we will go to a button called VC Bypasser and we will enter this code: 
+```luau
+v:joinVoice()
+```
+- Many will say why don't you use this code better:
+```luau
+v:RequestJoinVoiceChat()
+```
+- Because if we use RequestJoinVoiceChat() like this, we will send a request to Roblox via the function that we want to join the voice chat
+
+## FAQ:
+### Why The Exploit Dosen't Work For Me?!:
+The reason may be that the executer cannot run the exploit for some reason. We advise you to use the executers found in SupportedExecutors.md, And don't forget, if your executor supports the exploit, send us an issue that states that the executor you are using supports the exploit
+
+### How to be contibutor:
+There is only one way to contribute, which is to open a Pull Request and modify the code if there are errors, problems, or additions. 
+
+## About ByeRobloxVCBan:
+- Open Source
+- Made By GozBlox (F4X)
