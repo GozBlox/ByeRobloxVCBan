@@ -15,7 +15,7 @@ local Window = Luna:CreateWindow({
 
     ConfigSettings = {
         RootFolder = nil, 
-        ConfigFolder = "Big Hub"
+        ConfigFolder = "ByeRobloxVCBan Loader"
     },
 
     KeySystem = false,
