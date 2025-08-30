@@ -2,7 +2,15 @@
 and yeah i don't have enough time to add icons for tabs bruh
 ]]
 
+-- //SERVICES\\
 local v = game:GetService("VoiceChatService")
+local cg = game:GetService("CoreGui")
+local ws = game:GetService("Workspace")
+local lg = game:GetService("Lighting")
+local rf = game:GetService("ReplicatedFirst")
+local rs = game:GetService("ReplicatedStorage")
+local sg = game:GetService("StarterGui")
+local ss = game:GetService("SoundService")
 
 local Luna = loadstring(game:HttpGet("https://raw.nebulasoftworks.xyz/luna", true))()
 local Window = Luna:CreateWindow({
