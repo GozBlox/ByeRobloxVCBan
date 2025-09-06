@@ -8,7 +8,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/GozBlox/ByeRobloxVCBa
 
 # UPDATE IN VC:
 > [!Warning]
-> - If you are from these countries: Saudi Arabia, IRAQ, United Arab Emarites, Jordan, Oman, Yemen, Kuwait, Qatar, Turkey, Lebanon, Palestine, Israel, IRAN, Bahrain, Syria, The VC Bypasser will no longer works for you (due to chat, vc restricted region)
+> - If you are from these countries: Saudi Arabia, IRAQ, United Arab Emarites, Jordan, Oman, Yemen, Kuwait, Qatar, Turkey, Lebanon, Palestine, Israel, IRAN, Bahrain, Syria, The VC Bypasser will no longer works for you (due to chat, vc restricted region (TEMP RESTRICTED)
 
 ## How Does ByeRobloxVCBan Works?!:
 - First, the script will create a variable named v to call a Service named VoiceChatService like this: 
