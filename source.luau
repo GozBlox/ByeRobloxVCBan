@@ -13,7 +13,9 @@ local rf = cloneref(game:GetService("ReplicatedFirst"))
 local rs = cloneref(game:GetService("ReplicatedStorage"))
 local sg = cloneref(game:GetService("StarterGui"))
 local ss = cloneref(game:GetService("SoundService"))
-
+local tcs = cloneref(game:GetService("TextChatService"))
+local gs = cloneref(game:GetService("GamepassService"))
+local hs = cloneref(game:GetService("HttpService"))
 local Luna = loadstring(game:HttpGet("https://raw.nebulasoftworks.xyz/luna", true))()
 local Window = Luna:CreateWindow({
     Name = "ByeRobloxVCBan",
