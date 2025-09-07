@@ -2,15 +2,17 @@
 and yeah i don't have enough time to add icons for tabs bruh
 ]]
 
+local cloneref = cloneref or function(r) then return r end -- added cloneref to bypass things
+
 -- //SERVICES\\
-local v = game:GetService("VoiceChatService")
-local cg = game:GetService("CoreGui")
-local ws = game:GetService("Workspace")
-local lg = game:GetService("Lighting")
-local rf = game:GetService("ReplicatedFirst")
-local rs = game:GetService("ReplicatedStorage")
-local sg = game:GetService("StarterGui")
-local ss = game:GetService("SoundService")
+local v = cloneref(game:GetService("VoiceChatService"))
+local cg = cloneref(game:GetService("CoreGui"))
+local ws = cloneref(game:GetService("Workspace"))
+local lg = cloneref(game:GetService("Lighting"))
+local rf = cloneref(game:GetService("ReplicatedFirst"))
+local rs = cloneref(game:GetService("ReplicatedStorage"))
+local sg = cloneref(game:GetService("StarterGui"))
+local ss = cloneref(game:GetService("SoundService"))
 
 local Luna = loadstring(game:HttpGet("https://raw.nebulasoftworks.xyz/luna", true))()
 local Window = Luna:CreateWindow({
